@@ -5,7 +5,7 @@ In this lab, we're going to make a rainbow with HTML `<div>` elements. And while
 Before we start, here's some basic info about HTML and CSS. Skip to [Making a Rainbow](#making-a-rainbow) if you feel comfortable enough with HTML and CSS.
 
 ## HTML Basics
-Hyper Text Markup Language, or HTML, is a way to demarcate a document into different parts. Each part is _marked_ by elements (using tags). Each element has its own special connotation that the browser uses to _render_ the HTML document. Use this [cheat sheet](http://www.cril.univ-artois.fr/~lecoutre/teaching/web/sheets/HTML.pdf) on HTML elements for guidance.
+Hyper Text Markup Language, or HTML, is a way to demarcate a document into different parts. Each part is _marked_ by elements (using tags). Each element has its own special connotation that the browser uses to _render_ the HTML document. Use this [cheat sheet](http://www.cril.univ-artois.fr/~lecoutre/teaching/web/sheets/HTML.pdf) on HTML elements for guidance
 
 ### Elements
 - All begin with `<` and end with `>`, e.g., `<div>` (this last part is a tag).
@@ -20,7 +20,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
   + Classes can be used as many times as you want. E.g.: `<div class="a-less-special-div"></div>`.
 - Elements nested inside other elements are called children.
   + Children inherit attributes from their parents.
-  + Don't nest everything. 
+  + Don't nest everything.
 - Elements next to one another are siblings.
   + Siblings do not inherit from one another, but are important for selecting in CSS.
 
@@ -57,12 +57,12 @@ First off make sure you have [forked](https://github.com/learn-co-students/my-li
 In that directory you'll see three files. `index.html`, `main.css`, and this `README.md`.  Open them in your text editor via your command line.  Also open `index.html` in your browser; if everything is working correctly you should see a white page. Good job!
 
 ### Making the Divs Visible
-If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles. 
+If you use the inspector or look at the file in your text editor, you'll see that the basic file stucture is there.  So why can't we see anything?!?!?  That's because the divs have no styling on them right now.  And that's because we never told the browser to include a CSS file that would apply any styles.
 
 Let's fix this by adding the stylesheet to the `head` like so,
 ```html
 <head>
-... 
+...
   <link rel="stylesheet" type="text/css" href="main.css">
 ...
 </head>
